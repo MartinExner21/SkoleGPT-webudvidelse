@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "SkoleGPT Webudvidelse",
+  "version": "1.5",
+  "description": "En hjælpsom widget der forklarer tekst med SkoleGPT.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "sidePanel",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
